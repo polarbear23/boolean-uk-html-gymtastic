@@ -18,12 +18,12 @@
 
 }
 .topbar li{
-    display: inline;
-    margin: 25px;
+    display: inline-block;
+    margin: 15px;
     font-size: 25px;
 }
 .topbar .logo{
-    font-size: 50px;
+    font-size: 35px;
     text-align: center;
     font-weight: bold;
 }
@@ -80,7 +80,7 @@
     padding: 20px;
     padding-left: 80px;
     padding-right: 80px;
-
+    box-shadow: 5px 10px 30px #888888;
 
     display: inline;
     color: white;
@@ -100,9 +100,8 @@
     border: 3px solid blueviolet;
 }
 
-
 .testimonials{
-    
+
 }
 .testimonials li{
     display: inline;
@@ -115,6 +114,7 @@
 
 .rounded-lg {
     border-radius: 16px;
+    
   }
 
 
@@ -134,14 +134,16 @@
     list-style: none
 }
 .bottomspace{
-    margin: 40px;
-    padding-top: 40px;
+    margin: 25px;
+    padding-top: 30px;
 
 }
 .bottomspace > h2{
     margin-bottom: 20px;
 }
 .bottomspace > p{
+    
     font-weight: bold;
+    
 }
 
